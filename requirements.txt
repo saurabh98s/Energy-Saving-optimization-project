@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn==1.5.2
+matplotlib
+seaborn
+plotly
+streamlit
+joblib
+datetime
+requests
+transformers
+torch
+sentencepiece
