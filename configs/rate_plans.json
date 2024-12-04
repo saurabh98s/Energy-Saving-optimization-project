@@ -1,19 +1,18 @@
 {
     "flat_rate": {
-        "rate": 0.15
+        "rate": 0.25 
     },
     "tiered": {
         "tiers": [
-            {"threshold": 500, "rate": 0.12},
-            {"threshold": 500, "rate": 0.15},
-            {"threshold": "infinite", "rate": 0.20}
+            {"threshold":  400, "rate": 0.25},  
+            {"threshold": "infinite", "rate": 0.35}       
         ]
     },
     "time_of_use": {
         "rates": [
-            {"start_hour": 0, "end_hour": 6, "rate": 0.10},
-            {"start_hour": 6, "end_hour": 18, "rate": 0.20},
-            {"start_hour": 18, "end_hour": 24, "rate": 0.15}
+            {"start_hour": 21, "end_hour": 14, "rate": 0.30},
+            {"start_hour": 16, "end_hour": 21, "rate": 0.40},
+            {"start_hour": 14, "end_hour": 16, "rate": 0.20}
         ]
     }
 }
